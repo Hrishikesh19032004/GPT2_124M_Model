@@ -140,9 +140,10 @@ Beyond the benchmark loop, the training script is set up for long runs on time-l
 
 ```
 .
-├── prep_data.py             # streams and tokenizes FineWeb-Edu into .npy shards
-├── train_gpt2_300m.py       # model, data loader, DDP training loop (supports both presets)
-├── assets/                  # benchmark screenshots
+├── Notebooks            # Colab and kaggle notebooks for gpu access
+├── PrepData/prep_data.py             # streams and tokenizes FineWeb-Edu into .npy shards
+├── gpt124m_tokens_300m.py       # model, data loader, DDP training loop (supports both presets)
+├── SS/                  # benchmark screenshots
 └── README.md
 ```
 
