@@ -1,0 +1,3 @@
+GPT 124M from scratch: be careful. Reproducing nanoGPT is extremely common and won’t differentiate you. Do it only with a twist that shows depth, such as KV-cache and quantization benchmarks, a custom tokenizer on a domain corpus, or an inference-optimization write-up with tokens/sec before and after. Without that, skip it.
+
+The highest-value project for MLE roles is a production ML system: serve a model with FastAPI, Docker, CI/CD, MLflow tracking, monitoring and drift detection on AWS, with load-test numbers. A RAG system with a proper eval harness is the other thing the market wants right now.
