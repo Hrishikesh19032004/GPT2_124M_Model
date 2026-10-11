@@ -79,11 +79,12 @@ The optimizations were applied together, so the speedup is a combined figure and
 
 **Before (fp32, batch 12 × 512)**
 
-![Before speedup](assets/Before_speedup.PNG)
+<img width="197" height="341" alt="Before_speedup" src="https://github.com/user-attachments/assets/df990390-377d-4aff-ab79-d3bb8c95e0a3" />
 
 **After (fp16 + compile + fused AdamW, batch 12 × 512)**
 
-![After speedup](assets/After_speedup.PNG)
+<img width="220" height="244" alt="After_speedup" src="https://github.com/user-attachments/assets/42a4cb7c-f384-4b95-a5e3-ba87f837ea78" />
+
 
 </details>
 
@@ -102,11 +103,11 @@ Throughput stays flat at roughly 19–20k tokens/s as the batch grows, which sho
 
 **Batch 16 × 512**
 
-![Batch 16 x 512](assets/After_speedup_B16_T512.PNG)
+<img width="159" height="236" alt="After_speedup_B16_T512" src="https://github.com/user-attachments/assets/9542310f-5dd2-4d81-9d1f-1bd90ad321c1" />
 
 **Batch 16 × 1024**
 
-![Batch 16 x 1024](assets/After_speedup_B16_T1024.PNG)
+<img width="338" height="342" alt="After_speedup_B16_T1024" src="https://github.com/user-attachments/assets/e21e2825-fe47-495d-bd05-e48faaf9d127" />
 
 </details>
 
