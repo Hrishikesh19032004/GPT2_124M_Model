@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "ckpt": "/root/.cache/huggingface/hub/models--Hrishikesh1903--gpt124m-ckpt/snapshots/6b05b497b705f72a16d87418e1ad0f3411808bb8/model_final.pt",
+    "params_m": 124.475904,
+    "device": "cuda"
+  },
+  "results": {
+    "ppl": {
+      "this_model": {
+        "loss": 4.241973704285824,
+        "perplexity": 69.54497769182656,
+        "bits_per_token": 6.119874426754545,
+        "bits_per_byte": 1.3280181975553746,
+        "tokens_evaluated": 9999360
+      },
+      "openai_gpt2_124m": {
+        "loss": 3.2769571065048164,
+        "perplexity": 26.495028364504794,
+        "bits_per_token": 4.727649766760345,
+        "bits_per_byte": 1.0259042071972198,
+        "tokens_evaluated": 9999360
+      }
+    },
+    "gen": {
+      "greedy": {
+        "samples": 10,
+        "distinct_1": 0.11200000000000002,
+        "distinct_2": 0.1303030303030303,
+        "distinct_3": 0.14183673469387753,
+        "repeated_4grams": 0.8484536082474227,
+        "avg_new_tokens": 100.0,
+        "temperature": 0.0,
+        "top_k": 0,
+        "top_p": 1.0,
+        "repetition_penalty": 1.0
+      },
+      "sampled": {
+        "samples": 30,
+        "distinct_1": 0.4867979110836254,
+        "distinct_2": 0.7516167141167142,
+        "distinct_3": 0.8452982432730669,
+        "repeated_4grams": 0.10156537925195475,
+        "avg_new_tokens": 97.43333333333334,
+        "temperature": 0.8,
+        "top_k": 50,
+        "top_p": 0.95,
+        "repetition_penalty": 1.0
+      },
+      "sampled+rep_penalty": {
+        "samples": 30,
+        "distinct_1": 0.6871454229567925,
+        "distinct_2": 0.908448091843575,
+        "distinct_3": 0.9607955357531242,
+        "repeated_4grams": 0.019243986254295575,
+        "avg_new_tokens": 93.36666666666666,
+        "temperature": 0.7,
+        "top_k": 40,
+        "top_p": 0.9,
+        "repetition_penalty": 1.15
+      }
+    }
+  },
+  "samples": [
+    {
+      "config": "greedy",
+      "prompt": "Photosynthesis is the process by which plants",
+      "text": "Photosynthesis is the process by which plants are grown in the soil.\nThe plant is a plant that is grown in the soil. It is a plant that is grown in the soil. It is a plant that is grown in the soil. It is grown in the soil and is grown in the soil.\nThe plant is grown in the soil. It is grown in the soil. It is grown in the soil. It is grown in the soil. It is grown in the soil. It is grown in the soil. It is"
+    },
+    {
+      "config": "greedy",
+      "prompt": "The French Revolution began in 1789 when",
+      "text": "The French Revolution began in 1789 when the French Revolution was established in 1789.\nThe French Revolution was the first to be known as the French Revolution. The French Revolution was the first to be known as the French Revolution.\nThe French Revolution was the first to be known as the French Revolution.\nThe French Revolution was the first to be known as the French Revolution.\nThe French Revolution was the first to be known as the French Revolution.\nThe French Revolution was the first to be known as the French Revolution.\nThe"
+    },
+    {
+      "config": "greedy",
+      "prompt": "In this lesson, students will learn how to",
+      "text": "In this lesson, students will learn how to use the lesson plans to use the lesson plans.\n- Students will learn how to use the lesson plans to use the lesson plans.\n- Students will learn how to use the lesson plans to use the lesson plans.\n- Students will learn how to use the lesson plans to use the lesson plans.\n- Students will learn how to use the lesson plans to use the lesson plans.\n- Students will learn how to use the lesson plans to use the lesson plans.\n- Students will learn"
+    },
+    {
+      "config": "greedy",
+      "prompt": "The human heart is divided into four chambers:",
+      "text": "The human heart is divided into four chambers: the heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the heart. The heart is the"
+    },
+    {
+      "config": "greedy",
+      "prompt": "One of the main causes of climate change is",
+      "text": "One of the main causes of climate change is the most common cause of climate change.\nThe climate change is caused by climate change.\nThe climate change is caused by climate change.\nThe climate change is caused by climate change.\nThe climate change is caused by climate change.\nThe climate change is caused by climate change.\nThe climate change is caused by climate change.\nThe climate change is caused by climate change.\nThe climate change is caused by climate change.\nThe climate change is caused by climate change.\nThe"
+    },
+    {
+      "config": "greedy",
+      "prompt": "To calculate the area of a triangle, you need to",
+      "text": "To calculate the area of a triangle, you need to calculate the area of the triangle.\nThe graph below shows the area of the triangle.\nThe graph below shows the area of the triangle.\nThe graph below shows the area of the triangle.\nThe graph below shows the area of the triangle.\nThe graph below shows the area of the triangle.\nThe graph below shows the area of the triangle.\nThe graph below shows the area of the triangle.\nThe graph below shows the area of the triangle.\nThe graph below shows"
+    },
+    {
+      "config": "greedy",
+      "prompt": "The Industrial Revolution had a major impact on",
+      "text": "The Industrial Revolution had a major impact on the economy. The economy was a major factor in the economy. The economy was a major factor in the economy. The economy was a major factor in the economy. The economy was a major factor in the economy. The economy was a major factor in the economy. The economy was a major factor in the economy. The economy was a major factor in the economy. The economy was a major factor in the economy. The economy was a major factor in the economy. The economy was a major factor in"
+    },
+    {
+      "config": "greedy",
+      "prompt": "Water is essential for life because",
+      "text": "Water is essential for life because it is a natural resource for the environment.\n- It is a natural resource for the environment.\n- It is a natural resource for the environment.\n- It is a natural resource for the environment.\n- It is a natural resource for the environment.\n- It is a natural resource for the environment.\n- It is a natural resource for the environment.\n- It is a natural resource for the environment.\n- It is a natural resource for the environment.\n- It"
+    },
+    {
+      "config": "greedy",
+      "prompt": "The Pythagorean theorem states that",
+      "text": "The Pythagorean theorem states that the universe is the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the same as the"
+    },
+    {
+      "config": "greedy",
+      "prompt": "A healthy diet should include a variety of",
+      "text": "A healthy diet should include a variety of foods, such as fruits, vegetables, and vegetables.\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy diet\n- Eat a healthy"
+    },
+    {
+      "config": "sampled",
+      "prompt": "Photosynthesis is the process by which plants",
+      "text": "Photosynthesis is the process by which plants have been exposed to this process.\nThe plants used for sunlight in the soil to break down, and we now have an array of microbes that have come into the soil and the plants we produce. It has been shown that the plants produced are the ones that we now have been able to release from the surface and the plants that we do not need to do it.\nThe process begins with a lot of water that is stored in water, so we can see that when plants are harvested, plants"
+    },
+    {
+      "config": "sampled",
+      "prompt": "Photosynthesis is the process by which plants",
+      "text": "Photosynthesis is the process by which plants are grown and grown, so do you know which plants and plants should be harvested. It is important to know the benefits of a particular plant for your plants.\nYou can start by planting the plants that will grow, make a more fun and enjoy a healthy life. If you\u2019re going to plant, you should grow plant in a very good amount of light, light and water, and that plant will grow in a very good quantity of light.\nTo help you get to plant the"
+    },
+    {
+      "config": "sampled",
+      "prompt": "Photosynthesis is the process by which plants",
+      "text": "Photosynthesis is the process by which plants are used to absorb and reproduce from the soil.\nThe pH of water is a key factor in which to produce a nutrient called \"cubarb\" and the acid in a mixture of minerals. The pH of soil water is an important factor in the production of minerals and minerals.\nThe pH of water is a factor in the plant. In the water in the soil the plant is the most important factor in the crop. This is a factor in the yield of nitrogen.\nThe pH of"
+    },
+    {
+      "config": "sampled",
+      "prompt": "The French Revolution began in 1789 when",
+      "text": "The French Revolution began in 1789 when British troops took the same territory to their own territories and they moved south to the French territory. On the following day, British troops crossed the island of San Jose and fled the island of Santa Maria de Taurua.\nThe United States Army of the United States was the first to decide to hold the country's territory as a treaty that allowed them to have their own territories. In March, 1871, the U.S. Supreme Court of Rights was elected to the United States and was founded"
+    },
+    {
+      "config": "sampled",
+      "prompt": "The French Revolution began in 1789 when",
+      "text": "The French Revolution began in 1789 when the French government had to take into the British army in 1489. In the first two years of the French revolution and the French invasion of the British Empire, the Spanish-speaking British-born British and British, to prevent the British from becoming part of the British.\nThe British army was also a major threat to the British's military policy and to the British. In 1797, British troops were being attacked by French troops and the British captured their troops. During the Revolutionary War, British forces"
+    },
+    {
+      "config": "sampled",
+      "prompt": "The French Revolution began in 1789 when",
+      "text": "The French Revolution began in 1789 when the British Revolution was a political party and was later put into exile. This was a long-standing battle against the British and a struggle to the United States, and the British, and the United States, and the American.\nOn the other hand, the United States was able to fight against the United States and the United States. While the Americans were able to fight against the British, they were more likely to be more cautious and more effective than their American political and economic interests.\nAs an"
+    },
+    {
+      "config": "sampled",
+      "prompt": "In this lesson, students will learn how to",
+      "text": "In this lesson, students will learn how to read and write, which is a free, fun lesson. I can be a little longer a year.\n\u201cThis is the great book of fun! I will always have a few videos and then you can use a lot of my own.\u201d\nYou can also learn how to read and remember the book.\n\u201cWe\u2019re not going to give a quick, creative way, but they\u2019re good things. There are a lot of people who need to think"
+    },
+    {
+      "config": "sampled",
+      "prompt": "In this lesson, students will learn how to",
+      "text": "In this lesson, students will learn how to use the information they use in a classroom. They will explore how to use information on an in-depth study, or to make your own information more accessible to them.\nHere are the ways of doing your learning for their learning:\n- The process of using the information\n- Understanding the use of information in a classroom\n- Understanding the use of information in a classroom\n- Using information in a classroom\n- Learning how to use information\n- Learning how to use information in a classroom\n"
+    },
+    {
+      "config": "sampled",
+      "prompt": "In this lesson, students will learn how to",
+      "text": "In this lesson, students will learn how to participate in the course of your classroom.\nAs a student, it can be difficult to know how to prepare a student to study in college. This course can be difficult to know if you think about it.\nIn our practice, students will be able to participate in a variety of activities to help students. Here are the best ways to get started:\n- Students will be able to take part in a classroom. In your own classroom, you will be able to get a job that you are"
+    },
+    {
+      "config": "sampled",
+      "prompt": "The human heart is divided into four chambers:",
+      "text": "The human heart is divided into four chambers:\n- The human brain is divided into two sections:\n- The human brain is divided into four sections:\n- The human body is divided into five sections:\n- The human body is divided into four sections:\n- The human body is divided into four sections:\n- The human body is divided into three sections:\n- The human body is divided into three sections:\n- The human body is divided into four sections:\n- The human body is divided into two groups:\n"
+    },
+    {
+      "config": "sampled",
+      "prompt": "The human heart is divided into four chambers:",
+      "text": "The human heart is divided into four chambers: the heart, the lower the heart, the lower the heart and the lower heart, the lower the heart, and the lower heart.\nThe main role of human heart is the heart, which is located at the highest level. The main role of the heart is the heart, which is located at the highest level of the heart.\nWhat are the main role of human heart?\nA body of people with heart disease is located at the lowest level of the heart.\nA person who is"
+    },
+    {
+      "config": "sampled",
+      "prompt": "The human heart is divided into four chambers:",
+      "text": "The human heart is divided into four chambers: the left and the left and right of the body.\n\u201cI\u2019m going to see it,\u201d says Knee.\nShe is the son of an old man to be born in the family of Jac.\n\u201cI think he is a man who is a woman\u2019s and is a man. And he is a man who is a man.\u201d\nShe is not a man who is a man who is a man who is a man and"
+    },
+    {
+      "config": "sampled",
+      "prompt": "One of the main causes of climate change is",
+      "text": "One of the main causes of climate change is due to climate change and climate change.\nA few examples of environmental stressors, particularly on the climate, are caused by climate change.\nA global climate is a challenge to climate change, or in a global climate.\nFor all, the climate is a challenge to climate change.\nGlobal climate impacts have been defined as a \u201cpolar climate change\u201d.\nAn international team of experts in the World Health Organization say that the average annual annual annual annual annual annual annual annual annual"
+    },
+    {
+      "config": "sampled",
+      "prompt": "One of the main causes of climate change is",
+      "text": "One of the main causes of climate change is a major issue of global climate change.\nA \u201cunlimited climate\u201d scenario is a major issue that will be affected by climate change, as well as a series of environmental and economic events which have led to a more large and more rapid development of global climate change.\nBut the key to the climate change is the growing problem and the consequences of climate change."
+    },
+    {
+      "config": "sampled",
+      "prompt": "One of the main causes of climate change is",
+      "text": "One of the main causes of climate change is not as much as a natural or spiritual event.\nA number of experts have suggested that the climate has caused a lot of water in the world, so that the climate has not been able to meet its needs.\nIt is the most important one, of whom the climate is not a great place for our efforts to achieve in the future. We are just the first to have an understanding of climate change, but we must learn how to deal with it.\nThis will be the first of two"
+    },
+    {
+      "config": "sampled",
+      "prompt": "To calculate the area of a triangle, you need to",
+      "text": "To calculate the area of a triangle, you need to get the following formula and the following formula. This should include any two terms, so you can go to the left and then get the formula.\nHow to use the cube to calculate the region of a triangle?\nUse the matrix to calculate the area of a triangle.\nWhen you use the cube to calculate the area of a triangle, you need to get the solution. This will help you understand what is in the square.\nA square has a square and square with a circle of triangle"
+    },
+    {
+      "config": "sampled",
+      "prompt": "To calculate the area of a triangle, you need to",
+      "text": "To calculate the area of a triangle, you need to know how the area you are doing is. This way, if you have the same shape, you need to understand that the area is a good idea for the area, you will need to understand the area you need to explore the area, and that the area will be more complex.\nThe best way to use the area is to use the area in your area. This gives the area the area to learn about the area. You need to learn how to use the area that will work well in"
+    },
+    {
+      "config": "sampled",
+      "prompt": "To calculate the area of a triangle, you need to",
+      "text": "To calculate the area of a triangle, you need to add a square line, that\u2019s equal to the width of the triangle, and you need to adjust the area to make it much easier.\nYou can choose the following steps:\n- The square line of a triangle and the square line of a triangle (and the square line)\n- The square line of the triangle (or any other number)\n- The square line of a triangle (or any different number)\n- The square line of a triangle (or any of different"
+    },
+    {
+      "config": "sampled",
+      "prompt": "The Industrial Revolution had a major impact on",
+      "text": "The Industrial Revolution had a major impact on the economy and its role in the economy. This has been linked to the economic problems of the economy and the economy. This is a critical step toward the growth and development of the economy.\nHow many countries have been taking the market with these countries?\nThe market economy is a major factor in the future of the economy. The economy is the main factor in the economy. This is the major factor in the economy. It is also the major factor in the economy. The economic growth in the"
+    },
+    {
+      "config": "sampled",
+      "prompt": "The Industrial Revolution had a major impact on",
+      "text": "The Industrial Revolution had a major impact on the economy and the development of the economy. This began on by a time that he became a leader in the field, and his people\u2019s career in the fields of industries. He also made many contributions from these major cities to the economy, including the first agricultural fields and the United States. He also created a similar scheme and a model for the economy.\nIn 1688, the production of food was the most important asset in the economy. In 1874, the production of food was"
+    },
+    {
+      "config": "sampled",
+      "prompt": "The Industrial Revolution had a major impact on",
+      "text": "The Industrial Revolution had a major impact on the environment. The American Revolution and the Depression resulted in the introduction of an American economy with a new era of economic growth and development. These changes led to the development of the Industrial Revolution. As the Industrial Revolution started to revolutionize American economy, the American Revolution and the Industrial Revolution.\nThe American Revolution\nThe American Revolution came to the United States in 1792 and the American Revolution. It was one of the most popular inventions and the American Revolution, the American Revolution. The American Revolution, the"
+    },
+    {
+      "config": "sampled",
+      "prompt": "Water is essential for life because",
+      "text": "Water is essential for life because of the development of this essential oil is essential for health. For these reasons, a number of people are deficient in these oils, and their body fat may be able to convert it to it. Moreover, a number of people are less likely to have a higher level of fat.\nAccording to the American College of Medicine, the American College of Medicine recommends that the American College of Medicine recommends that people with high blood pressure, especially those who have low blood pressure, should use this treatment, and then"
+    },
+    {
+      "config": "sampled",
+      "prompt": "Water is essential for life because",
+      "text": "Water is essential for life because it is necessary for survival of individuals.\nIt is crucial that, for a healthy population, it is important for people to take up with them to live in a healthy environment.\nIt can be important that people do not live in an environment and therefore it is important that people should have a healthy lifestyle. It is important to think about healthy lifestyle choices and to have healthy relationships and relationships with people.\n- It helps to control the functioning of healthy and healthy life.\n- It helps to"
+    },
+    {
+      "config": "sampled",
+      "prompt": "Water is essential for life because",
+      "text": "Water is essential for life because it has a long life risk, since it is likely to become aware of the health consequences.\n\u201cThe health benefits of these issues are very important to the health of our health,\u201d says Dr. Sorejak, a research researcher at the University of Maryland, said in a study at the University of Alabama.\nThe findings are published in the journal Pediatrics in the University of Virginia, and the journal Pediatrics and the National Institutes of Health.\nFor more information, please click"
+    },
+    {
+      "config": "sampled",
+      "prompt": "The Pythagorean theorem states that",
+      "text": "The Pythagorean theorem states that it is more likely than the other\ncontrastical, more difficult to understand what this theorem explains.\n1. In this view, it is possible that it is less likely to be better to achieve a higher level of\nsugar-free, low-fat, and low-fat.\n2. In this view, it is possible that the equation is greater than that of the\ncontrastical and non-nutrients in the sense of the equation is better than\nthis hypothesis"
+    },
+    {
+      "config": "sampled",
+      "prompt": "The Pythagorean theorem states that",
+      "text": "The Pythagorean theorem states that the universe has been the first part of the universe in the universe, and it has already been the first part of it. This first phase of this process is the second part of the universe, which the Universe has come to the new Universe."
+    },
+    {
+      "config": "sampled",
+      "prompt": "The Pythagorean theorem states that",
+      "text": "The Pythagorean theorem states that the Vedic Vedic language can be divided into two types of monotonic, but the Vedic philosophy is the same: the Pythagorean theorem states that the Vedic philosophy is an old, and the Vedic is not the same, the Vedic concept of the Vedic philosophy is a simple thing. The Vedic philosophy is based on the Bhagorean theorem.\nIn the second study, the Vedic concept of the Vedic philosophy is divided into two classes: (1"
+    },
+    {
+      "config": "sampled",
+      "prompt": "A healthy diet should include a variety of",
+      "text": "A healthy diet should include a variety of fruits and vegetables that have a high incidence of cancer. The following foods should be balanced or a good diet should be checked by a general rule of thumb, but should be made to avoid foods that have an impact on your health.\nFoods should be kept in a balanced diet and should be set to reduce the risk of cancer. You should be aware that the following foods should be given to your health and the health of your diet.\nThe key to the list of foods that have a strong"
+    },
+    {
+      "config": "sampled",
+      "prompt": "A healthy diet should include a variety of",
+      "text": "A healthy diet should include a variety of health benefits.\nA balanced diet should be avoided. For a healthy diet to get adequate amounts of omega-3 and omega-3, there is a good chance of getting a healthy diet to keep healthy, and there is no need for a healthy diet.\nPaintaining your cholesterol levels and exercise should not be enough. There should be no intake of omega-3 fats and omega-3. In addition to a healthy diet, there is no risk of being obese.\nThe best way"
+    },
+    {
+      "config": "sampled",
+      "prompt": "A healthy diet should include a variety of",
+      "text": "A healthy diet should include a variety of factors including:\n- Baking on the air, such as alcohol and alcohol.\n- Baking the air, especially with the presence of alcohol and alcohol.\n- The air is important to keep the air in air.\n- The air is the air.\n- The air is the most important cause of injury to the air.\n- The air is the most important cause of injury to the air.\n- If you have a low-temperature or high-temperature air"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "Photosynthesis is the process by which plants",
+      "text": "Photosynthesis is the process by which plants have been exposed to this plant.\nThe plants of this plant are now being developed in the same area as this plant is very hard. It can be used to grow the leaves and stems of the seeds that are not healthy but also too much, so it will eventually become a problem for many years. These flowers are usually grown in an easy-to-date environment where they are still growing in areas like New Mexico."
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "Photosynthesis is the process by which plants",
+      "text": "Photosynthesis is the process by which plants are grown and grow to grow.\nThe seeds in the plant come from seed, seed, seeds, seeds etc. The leaves can be eaten by a variety of crops such as wheat or corn."
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "Photosynthesis is the process by which plants",
+      "text": "Photosynthesis is the process by which plants are used to absorb sunlight. It also allows for a variety of materials like water and light.\nIt takes about 10 years before we see that it is a very common plant. The plant needs to grow in its roots to thrive as well. The plant\u2019s leaves are grown in the soil and then growing in water, so the plants have to be cut off. The seeds will be harvested.\nProtein and Ease\nThe plant can be found in an area where plants can live"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The French Revolution began in 1789 when",
+      "text": "The French Revolution began in 1789 when the British Revolution had to be replaced by a revolution that would soon change.\n\u201cWhen we were not so bad, the man who was very weak and strong, and he was very close to him and his own power.\u201d\nIn 1894, the British Revolution saw the American Revolution as an attempt to overthrow the British Revolution. In 1779, the British Revolution ended with the French Revolution and became part of the European Revolution.\nThis was the first war between France and America."
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The French Revolution began in 1789 when",
+      "text": "The French Revolution began in 1789 when the British came to power, and the British became known as a powerful military leader. After the war, the Spanish had been a long-standing British Revolution, but they were finally defeated by British forces from their home country. The British did not live well after the war in 1696, but also helped to fight against the British's army in 1786.\nBy 1848, the French continued to have the same political roots in the 19th century, with much of the most significant influence on"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The French Revolution began in 1789 when",
+      "text": "The French Revolution began in 1789 when the United States was formed. After that time, the British Revolution started with a large portion of the United States and became a member of the American Union. In 1868, he was elected to the U.S. President. When the United States were to join the American Revolution, he called for his commitment to the United States.\nIn addition to this American Revolution, the Americans had begun to play a major role in America\u2019s history of American history. By the end of this decade"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "In this lesson, students will learn how to",
+      "text": "In this lesson, students will learn how to teach the lessons they\u2019ve learned. This is an activity that I have not found that there are many questions about this topic.\nI think we are learning about math and science because it helps teachers develop their own understanding of the mathematics in a way that allows them to understand the concepts of the world. It also encourages students to recognize and understand what they know about.\nWe believe that the students can learn the skills that they learn to learn as well as how they know.\nIt provides"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "In this lesson, students will learn how to",
+      "text": "In this lesson, students will learn how to use the information and how it works.\n\u201cYou are able to create a class of questions that you need to know more about this topic,\u201d says David Parnman. \u201cWhat does it do with us? It is the same thing we can do with ourselves today.\u201d\nA student in the area of education has a special interest in learning new ways. The teacher has to work on teaching as a teacher for his or her own career as a teacher.\nThe"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "In this lesson, students will learn how to",
+      "text": "In this lesson, students will learn how to solve these problems.\nIt\u2019s a great time for students to understand what they can do, learn and learn from a particular problem. It is a good place to be able to read the answers in an essay by writing it out of their own hands on a computer.\nThe lesson is very interesting and helps to be done with a student. You may also have questions or questions that you want to know about how to teach them.\nStudents are excited to use the math skills they need"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The human heart is divided into four chambers:",
+      "text": "The human heart is divided into four chambers:\n- The body can be divided into two sections. Each and every part of the heart is given to each other. A large portion of the heart has a total number of parts, but there are two different types of organs. This is why it is important to know how to use this information in order to get the same results. This article is based on a paper published by David W. Weaver."
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The human heart is divided into four chambers:",
+      "text": "The human heart is divided into four chambers: the first of which was called the \u201cfibacy.\u201d (It seems to have been a small group of organs, so far more than that). It is clear that the \u201cpiral part of our body can be distinguished from the human brain and we have two parts: the second, the third and fourth.\u201d\nAs the brain has not been fully developed, it cannot be understood whether or not it were these organs in the world or where it were they most"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The human heart is divided into four chambers:",
+      "text": "The human heart is divided into four chambers: the most common and most common of all the four.\n1. In the second vein, the two valves are located on the bottom of the artery in the arteries where they have a high risk of heart disease. This blood clot may be caused by an increase in the blood pressure.\n2. In the third vein, there is a large portion of the cells that are found on the side of the arteries and the lungs. This is because the cells are active in the blood vessels, and the"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "One of the main causes of climate change is",
+      "text": "One of the main causes of climate change is, in part due to the fact that climate change impacts on Earth.\nThe problem with climate change is that they are more likely to happen when we want to take a closer look at our climate change. This is because we have many of the most important environmental and economic benefits of climate change.\nIn an attempt to develop a climate change situation, climate change can be linked to the weather conditions of a global climate change. For example, one of the most significant factors to cause climate change are not"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "One of the main causes of climate change is",
+      "text": "One of the main causes of climate change is that it is not too hot to be able to cause problems, and so much drought in the world.\n\u201cWe don\u2019t have a lot of climate change. We are very sensitive to weather and other health problems, because we don\u2019t have some good sources of climate change,\u201d said David Lee, a research associate at the University of Washington at Harvard University, who has a high risk for many diseases. \u201cIf we can\u2019t see the effects of"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "One of the main causes of climate change is",
+      "text": "One of the main causes of climate change is to have a devastating impact on global warming.\nThe study\u2019s authors suggest that the effects of climate change are likely to increase from a number of other factors, including the impacts of climate change.\n\"It also appears that climate change may be more important than we think,\" said Dr. Rottfield, the author of the study. \"In my opinion, we should not expect that global warming could be due to changes in climate change. We can also find ways to reduce our warming"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "To calculate the area of a triangle, you need to",
+      "text": "To calculate the area of a triangle, you need to calculate the area of an angle.\nThe square circle of an area is divided into two categories:\n- The width of a rectangle has four parts and two sides.\n- The size of an area in which the area is square.\n- The height of the area in which the area is square.\n- The length of the area is square.\n- The height of the area in which a triangle is square.\n- The length of the area in which the area of an area"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "To calculate the area of a triangle, you need to",
+      "text": "To calculate the area of a triangle, you need to know how much the square will be.\nIn addition to using this chart below, let\u2019s take an estimate of where it is divided by the number of triangles in each circle and the length of them will show you the same shape as your circle. This will be the key to which you want to get the most basic squares in that direction.\nIf you are getting the best results from the bottom, you have to be able to find the right angles (e.g., the vertical"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "To calculate the area of a triangle, you need to",
+      "text": "To calculate the area of a triangle, you need to add your square size.\nFor this reason, you can see that there are three points on the triangle that you can find here:\n- You have to be very careful when using the cube. This is the best way to check the area for the rectangle, and the following steps will help you to understand the basics."
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The Industrial Revolution had a major impact on",
+      "text": "The Industrial Revolution had a major impact on the economy and was one of the most important industries in Europe. By the time, people were faced with the largest economic development projects in Germany and the Netherlands. The majority of the world\u2019s economy has been affected by the increased risk of the economy and the number of people living in the US.\nAs the economic growth rate increases, it is estimated that about 90% of the population will be considered to be the \u201ccarbon inequality\u201d of the world\u2019s population. According"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The Industrial Revolution had a major impact on",
+      "text": "The Industrial Revolution had a major impact on the economy and its economy. The economic growth in this sector is due to its growth rates, and the development of these industries has been growing steadily since the 1980s when the U.S. government's financial system collapsed and was forced to move towards more than 90 percent to make it available for the United States to increase their incomes.\n\"In 2008, the US Department of Agriculture announced the nation's national income tax, which was at least 100% of the total GDP for the country. It"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The Industrial Revolution had a major impact on",
+      "text": "The Industrial Revolution had a major impact on the environment. The United States also found that a number of companies were selling their products or other goods for production.\nThe economy has always been an economic and economic phenomenon, as well as social life is not necessarily related to the conditions of the people they are doing. The average person in the world was 65 years old, but only after age 40, the amount of money spent by the people in the past decade was 5 years higher than the average person in the past few decades.\nA number"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "Water is essential for life because",
+      "text": "Water is essential for life because of the development of this plant.\nThe following questions will be found in the list below:\n- The growing number of plants and seeds in the US is about 6% (1).\n- All of these plants are not in the United States, but also in the United States.\n- The annual number of plants in the USA is around 5% and the total number of plants is approximately 4.6 % (3.2%) of the plants is about 9.7%.\n-"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "Water is essential for life because",
+      "text": "Water is essential for life because it can cause serious problems, such as heart failure, kidney disease or heart attack.\nThe best way to do this is by providing a healthy lifestyle. It is very important to have an active lifestyle and also provides your body with the best results of other health problems. For example, if you are concerned about having a high blood pressure, this is why it is important for health professionals who want to take on a regular basis."
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "Water is essential for life because",
+      "text": "Water is essential for life because it has a long-term impact on the health of humans.\nWhat are some ways to do in a healthy diet?\n- Avoid eating too much fruit and vegetables, but not only that they will eat anything. However, they can also help prevent disease by lowering blood pressure.\n- Eat more fruits and vegetables than others.\n- Take a good nutrition plan to avoid the need of your meal. This will allow you to get a better health care provider before getting enough exercise.\n-"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The Pythagorean theorem states that",
+      "text": "The Pythagorean theorem states that it is the most fundamental to the existence of any universe, in order to be used.\nIf you are interested in an experiment or study on this question, please contact us at firstname.lastname@example.org"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The Pythagorean theorem states that",
+      "text": "The Pythagorean theorem states that the universe has a certain relationship with the same relationship between it and its own state. But, in addition to its origin, we must see that there is no way for the finite number of things (that we have known about this) the universe as well.\nWhat do you think? The first thing that comes from the idea of the infinite number of things, is to show how many different things are going on. For example, if you had already seen a large amount of energy at all,"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "The Pythagorean theorem states that",
+      "text": "The Pythagorean theorem states that the Vedic concept of Pythagorean is one of the main elements that is the Vedic theory, that is the Vedic concept of the Vedic philosophy.\nIn a recent study, there are two major theories which can be found in the Vedic tradition:\n- The Vedic theory is one of the earliest known and most famous Vedic concepts for the Vedic system. It has been used by the Buddha\u2019s work on Vedic theory, with the following points from the"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "A healthy diet should include a variety of",
+      "text": "A healthy diet should include a variety of different foods, including nuts and vegetables.\nWhat\u2019s the difference between fruits and vegetables?\n- Try to find out how your body can control and manage nutrients from the food chain to try:\n- Eat healthy foods that are low in calories\n- Eat whole grains and vegetables\n- Eat healthier\n- Eat more dairy products\n- Avoid eating less meat\n- Avoid fish oil\n- Drink plenty of water\n- Find foods rich in antioxidants\n- Use vitamins A, B6"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "A healthy diet should include a variety of",
+      "text": "A healthy diet should include a variety of health benefits.\nIn order to avoid the risks and complications that need to be avoided, it is important to know if you are going to your health care provider or a doctor before taking a regular dose of blood pressure during pregnancy, such as a pregnant woman who has been vaccinated against this disease.\n- If your child has a very high chance of being at risk for an outbreak in pregnancy or childbirth, seek medical advice immediately after delivery.\nIf you have a strong baby baby or two children with"
+    },
+    {
+      "config": "sampled+rep_penalty",
+      "prompt": "A healthy diet should include a variety of",
+      "text": "A healthy diet should include a variety of conditions and conditions that may increase your risk of being overweight.\n- Physical activity: Exercise is the key to maintaining a balanced, well-being of life in the world. This includes exercise to maintain good health and wellbeing and improves quality of life.\n- Health-related activities: Exercise is the main reason for managing an unhealthy lifestyle.\n- Physical activity: Exercise is the main reason for getting obese.\n- Sports activities: Exercise can be done by adding to meals or running meals as possible"
+    }
+  ]
+}
